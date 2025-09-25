@@ -1,1 +1,10 @@
 # Devaki-demo
+Devaki is a personalized period and wellness tracker designed to help users manage their reproductive health with ease. The app allows individuals to log their cycles, track daily physical and emotional symptoms such as pain, mood, bloating, and libido, and receive tailored recommendations for diet, exercise, and meditation. It also predicts upcoming periods based on historical data, making it easier to plan ahead. Alongside daily tracking, Devaki provides a detailed period log where users can record important details such as flow intensity, clots, and pain locations. The app includes a built-in breathwork timer for relaxation and stress management, and when extreme or unusual symptoms are detected, it alerts users to consult a gynecologist for medical advice.
+
+The application is built using a modern full-stack approach. The frontend is developed with React, HTML, CSS, and JavaScript, while the backend is powered by Java with Spring Boot. For data persistence, the system connects to relational databases such as MySQL or PostgreSQL. This stack ensures scalability, flexibility, and efficient data handling.
+
+To run Devaki locally, developers need Node.js and npm for the frontend, along with Java JDK (version 17 or higher) and Spring Boot for the backend. The database can be set up using MySQL or PostgreSQL, with credentials configured in the application properties file. Once the repository is cloned, the frontend can be launched with npm start, and the backend can be started using Maven with ./mvnw spring-boot:run. Database schemas and migrations can be applied before running the application to ensure smooth functioning.
+
+Future development of Devaki includes expanding into a mobile app version (Flutter or React Native), adding AI-powered health insights, introducing multilingual support for accessibility, and enabling users to export their health data for deeper analysis.
+
+Devaki is an open-source project licensed under the MIT License, and contributions are welcome. Developers can fork the repository, create feature branches, and submit pull requests to help improve the app.
